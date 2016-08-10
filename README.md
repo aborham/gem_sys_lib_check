@@ -19,13 +19,18 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
+install it as:
 
     $ gem install gem_syslibs
 
 ## Usage
 
-TODO: Write usage instructions here
+check for not installed gems and if they need system libs it will install them
+just type in terminal inside the project folder
+
+    $ gemsyslibs
+
+it will start scan and find the required gems
 
 ## Development
 
@@ -35,7 +40,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/gem_syslibs. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/saladin2002eg/gem_syslibs. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
