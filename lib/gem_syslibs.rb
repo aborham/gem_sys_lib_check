@@ -25,20 +25,25 @@ module GemSyslibs
 
       success_data = JSON.parse req.body
       if success_data.size > 0
-        libs =""
-        packages =""
-        success_data.each do |r|
-          libs << r["libs"].join(" ")+" "
-          packages << r["package"]['name']+" "
-
-        end
-        puts "you have to install the following system libraries #{libs} for #{packages} package(s)\n"
-        #TODO: allow the gem to run install
-        if PLATFORM == "Linux"
-          puts "Run this command in terminal sudo apt-get install #{libs}"
+        if success_data.include? 'message'
+          puts success_data['message']
         else
-          puts "Run this command in terminal brew install #{libs}"
+          libs =""
+          packages =""
+          success_data.each do |r|
+            libs << r["libs"].join(" ")+" "
+            packages << r["package"]['name']+" "
+
+          end
+          puts "you have to install the following system libraries #{libs} for #{packages} package(s)\n"
+          #TODO: allow the gem to run install
+          if PLATFORM == "Linux"
+            puts "Run this command in terminal sudo apt-get install #{libs}"
+          else
+            puts "Run this command in terminal brew install #{libs}"
+          end
         end
+
       else
         puts "No system libraries needed."
       end
