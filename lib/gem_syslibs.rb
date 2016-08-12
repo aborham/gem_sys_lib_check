@@ -16,7 +16,6 @@ module GemSyslibs
         exists = %x(gem list -i #{g.name})
          missing << g.name if exists.chop == "false"
        end
-      missing << "nokogiri"
       req = HTTParty.post(ENDPOINT,
 
                                body: {
