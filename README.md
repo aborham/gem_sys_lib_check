@@ -3,23 +3,11 @@
 [![Code Climate](https://codeclimate.com/github/saladin2002eg/gem_sys_lib_check/badges/gpa.svg)](https://codeclimate.com/github/saladin2002eg/gem_sys_lib_check)
 
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/gem_syslibs`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Welcome gem_syslibs gem! this gem help you searches for required system libraries for gems in your gem file.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'gem_syslibs'
-```
-
-And then execute:
-
-    $ bundle
-
-install it as:
+Just run the following command inside your project:
 
     $ gem install gem_syslibs
 
