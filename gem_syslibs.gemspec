@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'gem_syslibs/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "gem_syslibs"
+  spec.name          = "gem_system libs"
   spec.version       = GemSyslibs::VERSION
   spec.authors       = ["Ahmed Borham"]
   spec.email         = ["saladin2002eg@gmail.com"]

@@ -7,13 +7,14 @@ Welcome gem_syslibs gem! this gem help you searches for required system librarie
 
 ## Installation
 
-Just run the following command inside your project:
+
+install it as:
 
     $ gem install gem_syslibs
 
 ## Usage
 
-check for not installed gems and if they need system libs it will install them
+check for not installed gems and if they need system libs it will tell you how to install them
 just type in terminal inside the project folder
 
     $ gemsyslibs
@@ -28,7 +29,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/saladin2002eg/gem_syslibs. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/saladin2002eg/gem_sys_lib_check. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
